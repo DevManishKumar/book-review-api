@@ -59,3 +59,12 @@ A RESTful API for managing books and reviews with user authentication.
 ## Example Requests
 
 [View the API request Postman collection](./BookReviewAPI.postman_collection.json)
+
+
+## 🚀 Live API
+
+The backend is deployed on Render and accessible here:
+
+🔗 **Base URL**: [https://book-review-api-80si.onrender.com](https://book-review-api-80si.onrender.com)
+
+You can use this base URL for all your API requests.
