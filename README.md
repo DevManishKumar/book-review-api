@@ -58,4 +58,4 @@ A RESTful API for managing books and reviews with user authentication.
 
 ## Example Requests
 
-[View the API request Postman collection](./BookReviewAPI.postman_collection.json.json)
+[View the API request Postman collection](./BookReviewAPI.postman_collection.json)
