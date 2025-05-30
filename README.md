@@ -46,10 +46,10 @@ A RESTful API for managing books and reviews with user authentication.
 - `POST /api/v1/auth/login` - Login and get JWT token
 
 ### Books
-- `GET /api/v1/books` - Get all books (with pagination and filters)
-- `GET /api/v1/books/:id` - Get a single book with reviews
+- `GET /api/v1/books` - Get all books (with pagination and filters and authenticated)
+- `GET /api/v1/books/:id` - Get a single book with reviews (authenticated)
 - `POST /api/v1/books` - Add a new book (authenticated)
-- `GET /api/v1/books/search?query=...` - Search books by title or author
+- `GET /api/v1/books/search?query=...` - Search books by title or author (authenticated)
 
 ### Reviews
 - `POST /api/v1/books/:id/reviews` - Add a review (authenticated)
