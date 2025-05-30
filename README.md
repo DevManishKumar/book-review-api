@@ -58,8 +58,4 @@ A RESTful API for managing books and reviews with user authentication.
 
 ## Example Requests
 
-### Register a new user
-```bash
-curl -X POST http://localhost:5000/api/v1/auth/signup \
-  -H "Content-Type: application/json" \
-  -d '{"username":"john","email":"john@example.com","password":"password123"}'
+[View the API request Postman collection](./BookReviewAPI.postman_collection.json.json)
